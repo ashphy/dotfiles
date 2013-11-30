@@ -1,0 +1,9 @@
+[user]
+	name = Kazuki Hamasaki
+	email = ne.vivam.si.abis@gmail.com
+[color]
+	ui = true
+[alias]
+	co = checkout
+	ci = commit
+	st = status
