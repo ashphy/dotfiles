@@ -50,4 +50,10 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 # rbenv
 eval "$(rbenv init -)"
 
+setopt RM_STAR_WAIT
+setopt NO_BEEP
+setopt NO_LIST_BEEP
+
+unsetopt CORRECT
+
 alias be='bundle exec'
