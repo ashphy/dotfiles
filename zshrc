@@ -42,7 +42,6 @@ ZSH_THEME="wedisagree"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
 fpath=(~/dotfiles/zsh-completions/src $fpath)
 
 # Customize to your needs...
@@ -50,3 +49,5 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 
 # rbenv
 eval "$(rbenv init -)"
+
+alias be='bundle exec'
